@@ -1,0 +1,12 @@
+package com.springcoreTesting1;
+
+import org.springframework.stereotype.Component;
+
+@Component("firstname")
+public class Student {
+	
+public void study()
+{
+	System.out.println("checking");
+	}
+}

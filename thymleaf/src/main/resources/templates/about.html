@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en" xlmns:th ="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+</head>
+<body>
+	<h1>we are learning thymleaf</h1>
+	<h1 th:text="${name}"></h1>
+	<h1 th:text="${ #strings.toUpperCase(name) }"></h1>
+	<h2>name of owner is </h2>
+	<div th:with ="a=5,b=67,n=${name}">
+	<h1>value of a is<span th:text="${a}" ></span></h1>
+	<h1>local value of n is <span th:text="${n}"></span></h1>
+</div>
+<h1>local value of n is <span th:text="${n}"></span></h1>
+</body>
+</html>

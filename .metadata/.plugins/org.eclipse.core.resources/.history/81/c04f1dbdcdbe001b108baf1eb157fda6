@@ -1,0 +1,14 @@
+package com.springcoreTesting1;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
+
+@Configuration
+@ComponentScan(basePackeges= com.springcoreTesting1)
+public class JavaConfig {
+	
+	
+	
+
+}

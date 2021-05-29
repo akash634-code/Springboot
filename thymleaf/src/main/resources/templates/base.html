@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en" xlmns:th ="http://www.thymeleaf.org"
+th:fragment ="layout(content)">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+</head>
+<body>
+	<h1>this is upper one </h1>
+	<div th:replace="${content}">
+	</div>
+</body>
+</html>
